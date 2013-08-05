@@ -26,7 +26,7 @@
       layer=".interfaces.IProductLayer"
       />
 
-  <browser:page
+<!--  <browser:page
       for="*"
       name="inlineChangePortletWeight"
       class=".kss.PortletManagerKSS"
@@ -34,7 +34,7 @@
       permission="plone.app.portlets.ManageOwnPortlets"
       layer=".interfaces.IProductLayer"
       />
-
+-->
   <browser:page
       name="portlet-weight-info"
       for="*"
@@ -44,10 +44,10 @@
       layer=".interfaces.IProductLayer"
       />
 
-  <browser:resource
+<!--  <browser:resource
       name="manage-portlets.kss"
       file="portlets.kss"
       layer=".interfaces.IProductLayer"
       />
-
+-->
 </configure>
